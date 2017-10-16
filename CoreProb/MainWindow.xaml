@@ -1,0 +1,12 @@
+﻿<Window xmlns="https://github.com/avaloniaui" MinWidth="500" MinHeight="300">
+    <StackPanel Margin="20">
+        <TextBlock Text="Hello World!">
+            <TextBlock.Styles>
+                <Style Selector=":pointerover">
+                    <Setter Property="TextBlock.Background" Value="Blue" />
+                </Style>
+            </TextBlock.Styles>
+        </TextBlock>
+        <Button Content="Prob" />
+    </StackPanel>
+</Window>
